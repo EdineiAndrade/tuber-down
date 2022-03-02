@@ -18,8 +18,8 @@ function App() {
             </div>
         </p>
         <p>{Download}</p>
-        // eslint-disable-next-line jsx-a11y/iframe-has-title
-        {Download && <iframe src={Download}></iframe>}
+      
+        {Download && <iframe title="This is a unique title" src={Download}></iframe>}
     </div>
 
   );
